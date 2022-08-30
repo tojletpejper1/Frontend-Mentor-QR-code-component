@@ -50,7 +50,7 @@
     font-family: 'Overpass', sans-serif;
     text-align: center;
     font-size: 15px;
-
+    color: hsl(212, 45%, 89%);
 }
 #center {
     display: flex;
