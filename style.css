@@ -1,0 +1,58 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Overpass:wght@400;700&display=swap');
+
+* {
+    box-sizing: border-box;
+    padding: 0px;
+    margin: 0px;
+}
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    width: 100vw;
+    height: 100vh;
+    background-color: hsl(212, 45%, 89%);
+}
+#minicontainer {
+    min-width: 350px;
+    width: 90vw;
+    max-width: 400px;
+    height: 90vh;
+    max-height: 550px;
+    background-color: hsl(0, 0%, 100%);
+    border-radius: 15px;
+    padding: 15px;
+    display: block;
+}
+#image {
+    width: 95%;
+    max-width: 340px;
+    height: 70%;
+    max-height: 357px;
+    background: url("images/image-qr-code.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 15px;
+}
+#header {
+    font-family: 'Overpass', sans-serif;
+    font-size: 20px;
+    text-align: center;
+    grid-column: 2;
+    grid-row: 2;
+}
+#about {
+    font-family: 'Overpass', sans-serif;
+    text-align: center;
+    font-size: 15px;
+
+}
+#center {
+    display: flex;
+    justify-content: center;
+}
